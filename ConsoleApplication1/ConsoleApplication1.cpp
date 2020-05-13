@@ -1,5 +1,4 @@
 ﻿#include<iostream>
-#include "ConsoleApplication1.h"
 using namespace std;
 
 
