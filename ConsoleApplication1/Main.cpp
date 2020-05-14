@@ -104,6 +104,15 @@ void varAddress() {
 	//cout << i << "\n";//有异常
 }
 void reftype() {
+	//引用数据类型
+	int a = 100;
+	int &b = a;
+	cout << b<<"\n";
+	a = 50;
+	cout << b << "\n";
+	b = 25;
+	cout << a << "\n";
+
 
 }
 int main()
