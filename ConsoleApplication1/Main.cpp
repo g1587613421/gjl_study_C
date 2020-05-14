@@ -91,11 +91,19 @@ void varAddress() {
 	
 	//数组访问
 	int nums[] = { 1,2,3,4,5,6,7,8,9 };
+	cout << "变量名表示的是nums[0]" << *nums<<"\n";
 	cout << "方式一nums[1]\t" << nums[1] << "\n";
 	cout << "方式二(*nums+1)\t" << nums[1] << "\n";
 	cout << "方式三(*(&nums[1])\t" << nums[1] << "\n";
+	
 
-	system("pause");
+	//动态内存分配
+	int *i = new int(1);
+	cout << i << "\n";
+	delete &i;
+	//cout << i << "\n";//有异常
+}
+void reftype() {
 
 }
 int main()
@@ -103,6 +111,7 @@ int main()
 	//ff();
 	//str();
 	//String_study();
-	varAddress();
+	//varAddress();
+	reftype();
 	return 0;
 }
