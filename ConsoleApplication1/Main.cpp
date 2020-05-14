@@ -1,7 +1,7 @@
 ﻿#include<iostream>
 #include<string.h>
+#include "FoTest.h"
 using namespace std;
-
 
 #define gjl "高金磊"
 const string PI="3.14";//相当于java的终态
@@ -115,12 +115,36 @@ void reftype() {
 
 
 }
+
+
+void fo1(int num) {
+	num++;
+}
+void fo2(int *num) {
+	num++;//num是地址这里只是移动了指针指向的内存空间,也就是修改的指针的位置
+}
+void fo3(int &num) {
+	num++;
+}
+void method() {
+	//方法调用的三种参数传递
+	int num = 0;
+	fo1(num);
+	cout << num << "\n";
+	fo2(&num);
+	cout << num << "\n";
+	fo3(num);
+	cout << num << "\n";
+
+
+}
 int main()
 {
 	//ff();
 	//str();
 	//String_study();
 	//varAddress();
-	reftype();
+	//reftype();
+	method();
 	return 0;
 }
