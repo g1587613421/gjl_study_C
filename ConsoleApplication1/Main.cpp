@@ -89,6 +89,12 @@ void varAddress() {
 	int** Ad = &A;//双重指针
 	cout << Ad << "\t" << *Ad<<"等于" << A<<"\n"<<**Ad<<"等于"<<a;
 	
+	//数组访问
+	int nums[] = { 1,2,3,4,5,6,7,8,9 };
+	cout << "方式一nums[1]\t" << nums[1] << "\n";
+	cout << "方式二(*nums+1)\t" << nums[1] << "\n";
+	cout << "方式三(*(&nums[1])\t" << nums[1] << "\n";
+
 	system("pause");
 
 }
