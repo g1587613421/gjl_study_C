@@ -7,6 +7,18 @@ using namespace std;
 #define ower mydata("高金磊")//属于宏指令的替代指令不属于宏方法 
 #define time cout<<"2020-5-15\n"
 #define gjldata(name,time) (printf("%s\n%s",name,time))
+
+//条件宏编译
+#define num2 1;//
+#if num2==1
+#define num3=2;
+#define elif num2==2
+#define num3=3;
+#endif 
+
+
+
+
 void mydata(string name) {
 	printf("所有者:%s\n", name);
 };
@@ -144,6 +156,29 @@ void method() {
 
 
 }
+
+void structTest() {
+	struct MyStruct
+	{
+		int age = 18;
+		string name = "1544";
+	} person1, person2;
+
+	cout << person1.age << "\n";
+	person1 = person2;
+	person1.age = 5;
+	MyStruct person3;//声明方式
+
+	//结构数组
+	struct MyStruct persons[8];
+
+
+}
+//枚举类型
+enum MyEnum {
+	one = 1,
+	two = 2
+};
 int main()
 {
 	//ower;
