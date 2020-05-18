@@ -11,9 +11,9 @@ using namespace std;
 //条件宏编译
 #define num2 1;//
 #if num2==1
-#define num3=2;
+#define num3 2;
 #define elif num2==2
-#define num3=3;
+#define num3 3;
 #endif 
 
 
@@ -179,17 +179,17 @@ enum MyEnum {
 	one = 1,
 	two = 2
 };
-int main()
-{
-	//ower;
-	//time;
-	//ff();
-	//str();
-	//String_study();
-	//varAddress();
-	//reftype();
-	//method();
-	//gjldata("高金磊","2020-5-15");
-
-	return 0;
-}
+//int main()
+//{
+//	//ower;
+//	//time;
+//	//ff();
+//	//str();
+//	//String_study();
+//	//varAddress();
+//	//reftype();
+//	//method();
+//	//gjldata("高金磊","2020-5-15");
+//
+//	return 0;
+//}

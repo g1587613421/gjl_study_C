@@ -151,12 +151,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FoTest.cpp" />
-    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="FoTest.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="myFirstClass.cpp" />
+    <ClCompile Include="oobMain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ConsoleApplication1.h" />
     <ClInclude Include="FoTest.h" />
+    <ClInclude Include="myFirstClass.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>

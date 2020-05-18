@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\oob">
+      <UniqueIdentifier>{22402e71-87c7-43b0-a3b3-a7086f8363e4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ConsoleApplication1.h">
@@ -24,13 +27,22 @@
     <ClInclude Include="FoTest.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="myFirstClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="FoTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="FoTest.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="myFirstClass.cpp">
+      <Filter>源文件\oob</Filter>
+    </ClCompile>
+    <ClCompile Include="oobMain.cpp">
+      <Filter>源文件\oob</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
