@@ -1,21 +1,19 @@
 #include "FoTest.h"
-class FoT
-{
-public:
-	FoT();
-	~FoT();
-
-private:
-
-};
-
-FoT::FoT()
-{
-}
-
-FoT::~FoT()
-{
-}
-void fo() {
-
-}
+#include <iostream>
+using namespace std;
+//在dos中执行这个程序
+//eg
+//FoTest.exe a b c d
+//5
+//FoTest.exe
+//a
+//b
+//c
+//d
+//int main(int argc,char *argv[]) {
+//	cout << argc << "\n";
+//	for (int i=0;i<argc;i++)
+//	{
+//		cout << argv[i]<<"\n";
+//	}
+//}

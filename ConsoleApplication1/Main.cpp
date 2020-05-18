@@ -3,7 +3,13 @@
 #include "FoTest.h"
 using namespace std;
 
-#define gjl "高金磊"
+#define gjl "高金磊"//宏定义
+#define ower mydata("高金磊")//属于宏指令的替代指令不属于宏方法 
+#define time cout<<"2020-5-15\n"
+#define gjldata(name,time) (printf("%s\n%s",name,time))
+void mydata(string name) {
+	printf("所有者:%s\n", name);
+};
 const string PI="3.14";//相当于java的终态
 
 void myprint(string str) {
@@ -140,11 +146,15 @@ void method() {
 }
 int main()
 {
+	//ower;
+	//time;
 	//ff();
 	//str();
 	//String_study();
 	//varAddress();
 	//reftype();
-	method();
+	//method();
+	//gjldata("高金磊","2020-5-15");
+
 	return 0;
 }
