@@ -16,6 +16,12 @@
     <Filter Include="源文件\oob">
       <UniqueIdentifier>{22402e71-87c7-43b0-a3b3-a7086f8363e4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\study1">
+      <UniqueIdentifier>{f52b981b-c734-44a6-b739-ca05e572a20a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\oop">
+      <UniqueIdentifier>{b44cd2b8-5150-40e7-9374-7764ba53fdd2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ConsoleApplication1.h">
@@ -32,17 +38,17 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FoTest.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="myFirstClass.cpp">
       <Filter>源文件\oob</Filter>
     </ClCompile>
     <ClCompile Include="oobMain.cpp">
       <Filter>源文件\oob</Filter>
+    </ClCompile>
+    <ClCompile Include="FoTest.cpp">
+      <Filter>源文件\study1</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件\study1</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
