@@ -157,6 +157,7 @@
     <ClCompile Include="Main.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="mainclass1.cpp" />
     <ClCompile Include="myFirstClass.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -167,6 +168,9 @@
   <ItemGroup>
     <ClInclude Include="ConsoleApplication1.h" />
     <ClInclude Include="FoTest.h" />
+    <ClInclude Include="myClass1.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="myFirstClass.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>

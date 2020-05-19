@@ -36,6 +36,9 @@
     <ClInclude Include="myFirstClass.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="myClass1.h">
+      <Filter>源文件\oop</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="myFirstClass.cpp">
@@ -49,6 +52,9 @@
     </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>源文件\study1</Filter>
+    </ClCompile>
+    <ClCompile Include="mainclass1.cpp">
+      <Filter>源文件\oop</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
