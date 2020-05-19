@@ -22,6 +22,9 @@
     <Filter Include="源文件\oop">
       <UniqueIdentifier>{b44cd2b8-5150-40e7-9374-7764ba53fdd2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\运算符重载">
+      <UniqueIdentifier>{02fbe9a0-dea2-4bef-a87f-17910e6fcc8f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ConsoleApplication1.h">
@@ -39,6 +42,9 @@
     <ClInclude Include="myClass1.h">
       <Filter>源文件\oop</Filter>
     </ClInclude>
+    <ClInclude Include="myOperator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="myFirstClass.cpp">
@@ -55,6 +61,12 @@
     </ClCompile>
     <ClCompile Include="mainclass1.cpp">
       <Filter>源文件\oop</Filter>
+    </ClCompile>
+    <ClCompile Include="main2.cpp">
+      <Filter>源文件\运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="myOperator.cpp">
+      <Filter>源文件\运算符重载</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
