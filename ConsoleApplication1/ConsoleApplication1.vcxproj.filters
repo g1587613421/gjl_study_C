@@ -25,6 +25,9 @@
     <Filter Include="源文件\运算符重载">
       <UniqueIdentifier>{02fbe9a0-dea2-4bef-a87f-17910e6fcc8f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\extends">
+      <UniqueIdentifier>{f2b8bdca-e25b-46b3-bbf3-26dfdd075c36}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ConsoleApplication1.h">
@@ -44,6 +47,15 @@
     </ClInclude>
     <ClInclude Include="myOperator.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="childClass.h">
+      <Filter>源文件\extends</Filter>
+    </ClInclude>
+    <ClInclude Include="FatherClass1.h">
+      <Filter>源文件\extends</Filter>
+    </ClInclude>
+    <ClInclude Include="FatherClass2.h">
+      <Filter>源文件\extends</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -67,6 +79,18 @@
     </ClCompile>
     <ClCompile Include="myOperator.cpp">
       <Filter>源文件\运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendsTestMain.cpp">
+      <Filter>源文件\extends</Filter>
+    </ClCompile>
+    <ClCompile Include="FatherClass2.cpp">
+      <Filter>源文件\extends</Filter>
+    </ClCompile>
+    <ClCompile Include="FatherClass1.cpp">
+      <Filter>源文件\extends</Filter>
+    </ClCompile>
+    <ClCompile Include="childClass.cpp">
+      <Filter>源文件\extends</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
