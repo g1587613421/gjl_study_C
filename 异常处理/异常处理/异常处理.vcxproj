@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{74AC8D60-329C-4C79-884A-E86C168EE733}</ProjectGuid>
+    <ProjectGuid>{F13B81F9-2353-406B-BFDE-E8BCD9CA8FB6}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>继承的构造与析构</RootNamespace>
+    <RootNamespace>异常处理</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,13 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="child.cpp" />
-    <ClCompile Include="father.cpp" />
-    <ClCompile Include="继承的构造与析构.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="child.h" />
-    <ClInclude Include="father.h" />
+    <ClCompile Include="异常处理.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -15,22 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="继承的构造与析构.cpp">
+    <ClCompile Include="异常处理.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="child.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="father.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="child.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="father.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
