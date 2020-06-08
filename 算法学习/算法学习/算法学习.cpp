@@ -3,11 +3,26 @@
 
 #include <iostream>
 #include <locale.h>
+using namespace std;
 
+struct Mylist
+{
+	Mylist *next;
+	int data;
+};
+//封装成链表函数
+Mylist get_new_ListNode(int num)
+{
+	Mylist *m = new Mylist();
+	m->data = num;
+	return *m;
+}
 int main()
 {
-	 
-    std::cout << "Hello World!\n";
+	Mylist m1 = get_new_ListNode(1);
+	Mylist m2 = get_new_ListNode(2);
+	m1.next = &m2;
+
 }
 
 //矩阵乘法
