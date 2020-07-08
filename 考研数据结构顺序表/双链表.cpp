@@ -21,13 +21,20 @@ bool insert(int i, int value) {
 	{
 		return false;
 	}
+	Node* middle = (LinkedList)malloc(sizeof(Node));
+	middle->value = value;
+	if (i==1&&head==NULL)
+	{
+		head = last = middle;
+		len++;
+		return true;
+	}
 	Node node = *head->next;
 	while (i-->1)
 	{
 		node = *node.next;
 	}
-	Node *middle = (LinkedList)malloc(sizeof(Node));
-	middle->value = value;
+
 	middle->next = node.next;
 	node.next = middle;
 	middle->pre =&node;
@@ -36,11 +43,6 @@ bool insert(int i, int value) {
 	}
 	len++;
 	return true;
-}
-
-
-void printFirst() {
-
 }
 
 
