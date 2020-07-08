@@ -13,13 +13,19 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\顺序表">
+      <UniqueIdentifier>{4da7591a-c8ed-477c-b61a-205351fff0d3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="考研数据结构顺序表.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\顺序表</Filter>
     </ClCompile>
-    <ClCompile Include="线性表的链表实现cpp.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="双链表.cpp">
+      <Filter>源文件\顺序表</Filter>
+    </ClCompile>
+    <ClCompile Include="线性表的链表实现.cpp">
+      <Filter>源文件\顺序表</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

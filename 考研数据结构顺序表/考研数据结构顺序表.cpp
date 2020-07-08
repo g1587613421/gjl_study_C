@@ -88,23 +88,23 @@ void printList(mylist* L) {
     cout << ends << endl;
 }
 
-//int main()
-//{
-//    mylist list;
-//   cout<<"init"<<initList(&list)<<ends<<endl;
-//    //cout<<"getValue(2)"<< getvalue(&list, 2)<<ends<<endl;
-//   for (int i=1;i<=10;i++)
-//   {
-//       insertLast(&list, i);
-//   }
-//   printList(&list);
-//   cout << "查找5" << "  " << find(list, 5)<<ends<<endl;
-//   int res=0;
-//   cout << "删除5" << "  " << delect(&list, 5, res);
-//   cout<< "删除的数据是" << res << ends << endl;
-//   printList(&list);
-//   cout << "删除5" << "  " << delect(&list, 5, res) << "删除的数据是";
-//   cout << res << ends << endl;
-//   cout << "查找5" << "  " << find(list, 5) << ends << endl;
-//   
-//}
+int main()
+{
+    mylist list;
+   cout<<"init"<<initList(&list)<<ends<<endl;
+    //cout<<"getValue(2)"<< getvalue(&list, 2)<<ends<<endl;
+   for (int i=1;i<=10;i++)
+   {
+       insertLast(&list, i);
+   }
+   printList(&list);
+   cout << "查找5" << "  " << find(list, 5)<<ends<<endl;
+   int res=0;
+   cout << "删除5" << "  " << delect(&list, 5, res);
+   cout<< "删除的数据是" << res << ends << endl;
+   printList(&list);
+   cout << "删除5" << "  " << delect(&list, 5, res) << "删除的数据是";
+   cout << res << ends << endl;
+   cout << "查找5" << "  " << find(list, 5) << ends << endl;
+   
+}
