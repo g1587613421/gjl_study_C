@@ -27,6 +27,9 @@
     <ClCompile Include="线性表的链表实现.cpp">
       <Filter>源文件\顺序表</Filter>
     </ClCompile>
+    <ClCompile Include="栈.cpp">
+      <Filter>源文件\顺序表</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />
